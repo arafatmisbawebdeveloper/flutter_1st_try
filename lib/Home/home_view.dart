@@ -10,6 +10,8 @@ import 'package:flutter_1st_try/class3/ListView/list_view.dart';
 import 'package:flutter_1st_try/class3/RowExample/row_example.dart';
 import 'package:flutter_1st_try/class3/ScaffoldViewGuide/scaffold_view_guide.dart';
 import 'package:flutter_1st_try/class3/TextExample/text_example.dart';
+import 'package:flutter_1st_try/class4/CircleAvatarGuide/circleAvatarGuide.dart';
+import 'package:flutter_1st_try/class4/ListTileGuide/listTileGuide.dart';
 
 class HomeScreen extends StatelessWidget {
   // List of pages and their titles
@@ -22,9 +24,11 @@ class HomeScreen extends StatelessWidget {
     {'title': 'Card Example', 'page': const CardGuide()},
     {'title': 'ListView Example', 'page': const ListViewGuide()},
     {'title': 'Image Guide', 'page': const ImageGuide()},
+    {'title': 'ListTile Guide', 'page': const Listtile()},
     {'title': 'Button Guide', 'page': const ButtonsGuide()},
     {'title': 'Expanded Guide', 'page': const ExpandedGuide()},
     {'title': 'GridViewCount Guide', 'page': const GridViewCountGuide()},
+    {'title': 'Circle Avatar Guide', 'page': const Circleavatarguide()},
 
     // {'title': 'SizedBox Example', 'page': SizedBoxExample()},
     // {'title': 'Center Example', 'page': CenterExample()},

@@ -7,7 +7,7 @@ class ListViewGuide extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: ListView.builder(
-      itemCount: 5,
+      itemCount: 25,
       scrollDirection: Axis.vertical,
       physics: const BouncingScrollPhysics(),
       reverse: false,
@@ -16,6 +16,7 @@ class ListViewGuide extends StatelessWidget {
           leading: const Icon(Icons.check_circle),
           title: Text('Item ${index + 1}'),
           subtitle: Text('Subtitle ${index + 1}'),
+          onTap: () {},
         );
       },
     ));
