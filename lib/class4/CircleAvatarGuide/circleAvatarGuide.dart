@@ -11,7 +11,7 @@ class Circleavatarguide extends StatelessWidget {
           radius: 50,
           backgroundColor: Colors.amberAccent,
           // ignore: prefer_const_constructors
-          backgroundImage: AssetImage("assets/images/me.jpg"),
+          backgroundImage: AssetImage("assets/images/prosecond.jpg"),
           child: Align(
             alignment: Alignment.bottomRight,
             child: Icon(
