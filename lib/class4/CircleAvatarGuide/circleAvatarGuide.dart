@@ -8,8 +8,8 @@ class Circleavatarguide extends StatelessWidget {
     return const Scaffold(
       body: Center(
         child: CircleAvatar(
-          radius: 50,
-          backgroundColor: Colors.amberAccent,
+          radius: 100,
+          backgroundColor: Colors.white,
           // ignore: prefer_const_constructors
           backgroundImage: AssetImage("assets/images/prosecond.jpg"),
           child: Align(
