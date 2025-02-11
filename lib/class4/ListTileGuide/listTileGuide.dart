@@ -7,30 +7,30 @@ class Listtile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('ListTileGuide'),
+          title: const Text('ListTileGuide'),
         ),
         body: ListView(
           children: [
             ListTile(
-              leading: Icon(
+              leading: const Icon(
                 Icons.person,
                 color: Colors.blue,
               ),
-              title: Text('MisbaArafat'),
-              subtitle: Text('Flutter Developer'),
-              trailing: Icon(Icons.arrow_forward_ios, color: Colors.grey),
+              title: const Text('MisbaArafat'),
+              subtitle: const Text('Flutter Developer'),
+              trailing: const Icon(Icons.arrow_forward_ios, color: Colors.grey),
               onTap: () {
                 print('ListTile Clicked');
               },
             ),
             ListTile(
-              leading: Icon(
+              leading: const Icon(
                 Icons.person,
                 color: Colors.blue,
               ),
-              title: Text('John Doe'),
-              subtitle: Text('Jr.Flutter Developer'),
-              trailing: Icon(Icons.arrow_forward_ios, color: Colors.grey),
+              title: const Text('John Doe'),
+              subtitle: const Text('Jr.Flutter Developer'),
+              trailing: const Icon(Icons.arrow_forward_ios, color: Colors.grey),
               onTap: () {
                 print('ListTile Clicked');
               },
