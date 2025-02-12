@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/ButtonsGuide/buttons_guide_view.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/ExpandedGuide/expanded_guide_view.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/GridViewCountGuide/gridview_count_guide_view.dart';
+import 'package:flutter_1st_try/PracticeAtHome/show.dart';
 import 'package:flutter_1st_try/class3/CardGuide/card_guide_view.dart';
 import 'package:flutter_1st_try/class3/ColumnExample/column_example.dart';
 import 'package:flutter_1st_try/class3/ContainerExample/container_example.dart';
@@ -13,7 +14,6 @@ import 'package:flutter_1st_try/class3/TextExample/text_example.dart';
 import 'package:flutter_1st_try/class4/CircleAvatarGuide/circleAvatarGuide.dart';
 import 'package:flutter_1st_try/class4/ListTileGuide/listTileGuide.dart';
 import 'package:flutter_1st_try/class8_to_12/DrawerGuide/drawerguide.dart';
-import 'package:flutter_1st_try/class8_to_12/NavigationGuide/navigation.dart';
 
 class HomeScreen extends StatelessWidget {
   // List of pages and their titles
@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
     {'title': 'GridViewCount Guide', 'page': const GridViewCountGuide()},
     {'title': 'Circle Avatar Guide', 'page': const Circleavatarguide()},
     {'title': 'Drawer Guide', 'page': const Drawerguide()},
-    {'title': 'Navigation Guide', 'page': const NavigationGuide()},
+    {'title': 'First Home Task', 'page': const HwTask()},
     //{'title': 'FirstPage of Navigation', 'page': const Firstpage()},
 
     // {'title': 'SizedBox Example', 'page': SizedBoxExample()},

@@ -12,7 +12,7 @@ class Firstpage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, "/navigationguide");
+              Navigator.pushNamed(context, '/second');
             },
             child: Text("Go to Home")),
       ),
