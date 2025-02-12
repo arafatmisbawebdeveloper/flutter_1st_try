@@ -8,7 +8,7 @@ class NavigationGuide extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.call),
-        title: Text("Navigation Example"),
+        title: Text("Navigation Example not working"),
       ),
       body: Center(
         child: ElevatedButton(
