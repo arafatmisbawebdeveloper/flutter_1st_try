@@ -21,6 +21,8 @@ class HwTask extends StatelessWidget {
       'assets/images/black.jpg',
       'assets/images/gray.jpg',
       'assets/images/greenshoe.jpg',
+      'assets/images/bag.jpg',
+      'assets/images/book.jpg',
     ];
 
     return Scaffold(
