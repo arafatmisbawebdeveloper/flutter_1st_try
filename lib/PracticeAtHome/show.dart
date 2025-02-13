@@ -11,6 +11,9 @@ class HwTask extends StatelessWidget {
       'assets/images/media.jpg',
       'assets/images/sports.jpg',
       'assets/images/prosecond.jpg',
+      'assets/images/health.jpg',
+      'assets/images/Ami.jpg',
+      'assets/images/book.jpg',
     ];
 
     final List<String> productImages = [
@@ -22,8 +25,6 @@ class HwTask extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -47,12 +48,14 @@ class HwTask extends StatelessWidget {
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
-                children: categoryImages.map((imagePath) {
-                  return Padding(
-                    padding: const EdgeInsets.only(right: 10.0, left: 10),
-                    child: CategoryCard(imagePath: imagePath),
-                  );
-                }).toList(),
+                children: List.generate(
+                    categoryImages.length,
+                    (index) => Padding(
+                          padding: const EdgeInsets.only(right: 10.0),
+                          child: CategoryCard(
+                            imagePath: categoryImages[index],
+                          ),
+                        )),
               ),
             ),
             SizedBox(height: 20),
