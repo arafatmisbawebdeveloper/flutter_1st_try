@@ -84,7 +84,7 @@ class HwTask extends StatelessWidget {
                   crossAxisSpacing: 10,
                   childAspectRatio: 0.75,
                 ),
-                itemCount: 4,
+                itemCount: productImages.length,
                 itemBuilder: (context, index) {
                   return ProductCard(
                     imagePath: productImages[index],
