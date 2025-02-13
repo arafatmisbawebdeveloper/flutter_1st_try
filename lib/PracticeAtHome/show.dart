@@ -12,6 +12,14 @@ class HwTask extends StatelessWidget {
       'assets/images/sports.jpg',
       'assets/images/prosecond.jpg',
     ];
+
+    final List<String> productImages = [
+      'assets/images/red.jpg',
+      'assets/images/black.jpg',
+      'assets/images/gray.jpg',
+      'assets/images/greenshoe.jpg',
+    ];
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -41,7 +49,7 @@ class HwTask extends StatelessWidget {
               child: Row(
                 children: categoryImages.map((imagePath) {
                   return Padding(
-                    padding: const EdgeInsets.only(right: 10.0),
+                    padding: const EdgeInsets.only(right: 10.0, left: 10),
                     child: CategoryCard(imagePath: imagePath),
                   );
                 }).toList(),
@@ -75,7 +83,9 @@ class HwTask extends StatelessWidget {
                 ),
                 itemCount: 4,
                 itemBuilder: (context, index) {
-                  return ProductCard();
+                  return ProductCard(
+                    imagePath: productImages[index],
+                  );
                 },
               ),
             )
@@ -115,7 +125,7 @@ class CategoryCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
         image: DecorationImage(
           image: AssetImage(imagePath),
-          fit: BoxFit.cover,
+          fit: BoxFit.fill,
         ),
       ),
     );
@@ -123,6 +133,8 @@ class CategoryCard extends StatelessWidget {
 }
 
 class ProductCard extends StatelessWidget {
+  final String imagePath;
+  ProductCard({required this.imagePath});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -144,8 +156,7 @@ class ProductCard extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://via.placeholder.com/150'), // Replace with your image
+                  image: AssetImage(imagePath), // Replace with your image
                   fit: BoxFit.cover,
                 ),
                 borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
