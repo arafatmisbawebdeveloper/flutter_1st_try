@@ -12,7 +12,8 @@ class Firstpage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/second');
+              Navigator.pushNamed(
+                  context, '/lib/class8_to_12/NavigationGuide/home.dart');
             },
             child: Text("Go to Home")),
       ),

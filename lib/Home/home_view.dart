@@ -14,6 +14,7 @@ import 'package:flutter_1st_try/class3/TextExample/text_example.dart';
 import 'package:flutter_1st_try/class4/CircleAvatarGuide/circleAvatarGuide.dart';
 import 'package:flutter_1st_try/class4/ListTileGuide/listTileGuide.dart';
 import 'package:flutter_1st_try/class8_to_12/DrawerGuide/drawerguide.dart';
+import 'package:flutter_1st_try/class8_to_12/NavigationGuide/firstPage.dart';
 
 class HomeScreen extends StatelessWidget {
   // List of pages and their titles
@@ -33,7 +34,7 @@ class HomeScreen extends StatelessWidget {
     {'title': 'Circle Avatar Guide', 'page': const Circleavatarguide()},
     {'title': 'Drawer Guide', 'page': const Drawerguide()},
     {'title': 'First Home Task', 'page': const HwTask()},
-    //{'title': 'FirstPage of Navigation', 'page': const Firstpage()},
+    {'title': 'FirstPage of Navigation', 'page': const Firstpage()},
 
     // {'title': 'SizedBox Example', 'page': SizedBoxExample()},
     // {'title': 'Center Example', 'page': CenterExample()},

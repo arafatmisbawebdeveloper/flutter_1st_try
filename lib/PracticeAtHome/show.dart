@@ -5,6 +5,13 @@ class HwTask extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final List<String> categoryImages = [
+      'assets/images/bag.jpg',
+      'assets/images/food.jpg',
+      'assets/images/media.jpg',
+      'assets/images/sports.jpg',
+      'assets/images/prosecond.jpg',
+    ];
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -32,12 +39,12 @@ class HwTask extends StatelessWidget {
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
-                children: List.generate(
-                    10,
-                    (index) => Padding(
-                          padding: const EdgeInsets.only(right: 10.0),
-                          child: CategoryCard(),
-                        )),
+                children: categoryImages.map((imagePath) {
+                  return Padding(
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: CategoryCard(imagePath: imagePath),
+                  );
+                }).toList(),
               ),
             ),
             SizedBox(height: 20),
@@ -94,14 +101,22 @@ class HwTask extends StatelessWidget {
 }
 
 class CategoryCard extends StatelessWidget {
+  final String imagePath;
+
+  CategoryCard({required this.imagePath});
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 70,
-      height: 70,
+      width: 100,
+      height: 100,
       decoration: BoxDecoration(
         color: Colors.grey.shade300,
         borderRadius: BorderRadius.circular(10),
+        image: DecorationImage(
+          image: AssetImage(imagePath),
+          fit: BoxFit.cover,
+        ),
       ),
     );
   }
