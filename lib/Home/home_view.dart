@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_1st_try/Class13/dart_basic.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/ButtonsGuide/buttons_guide_view.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/ExpandedGuide/expanded_guide_view.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/GridViewCountGuide/gridview_count_guide_view.dart';
@@ -35,6 +36,7 @@ class HomeScreen extends StatelessWidget {
     {'title': 'Drawer Guide', 'page': const Drawerguide()},
     {'title': 'First Home Task', 'page': const HwTask()},
     {'title': 'FirstPage of Navigation', 'page': const NavigationGuide()},
+    {'title': 'Dart Basic Screen', 'page': const DartBasic()},
 
     // {'title': 'SizedBox Example', 'page': SizedBoxExample()},
     // {'title': 'Center Example', 'page': CenterExample()},

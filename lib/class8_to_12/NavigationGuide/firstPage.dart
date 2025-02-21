@@ -12,7 +12,7 @@ class Firstpage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/third');
+              Navigator.pushNamed(context, "/home");
             },
             child: Text("Go to Third page")),
       ),
