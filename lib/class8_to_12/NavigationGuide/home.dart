@@ -13,7 +13,7 @@ class NavigationGuide extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/first');
+              Navigator.pushNamed(context, '/second');
             },
             child: Text("Go to Second page")),
       ),
