@@ -7,13 +7,12 @@ class Firstpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hi!!! This is first page"),
+        title: Text("Hi!!! This is Second page"),
       ),
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(
-                  context, '/lib/class8_to_12/NavigationGuide/home.dart');
+              Navigator.pushNamed(context, '/second');
             },
             child: Text("Go to Home")),
       ),

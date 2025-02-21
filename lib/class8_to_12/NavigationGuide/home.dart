@@ -8,14 +8,14 @@ class NavigationGuide extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.call),
-        title: Text("Navigation Example not working"),
+        title: Text("Welcome to Homepage"),
       ),
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/firstPage');
+              Navigator.pushNamed(context, '/first');
             },
-            child: Text("Go to first page")),
+            child: Text("Go to Second page")),
       ),
     );
   }
