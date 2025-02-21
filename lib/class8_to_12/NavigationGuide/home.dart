@@ -7,7 +7,7 @@ class NavigationGuide extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.call),
+        leading: Icon(Icons.home),
         title: Text("Welcome to Homepage"),
       ),
       body: Center(

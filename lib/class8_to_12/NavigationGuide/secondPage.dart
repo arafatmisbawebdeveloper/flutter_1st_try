@@ -7,13 +7,15 @@ class Secondpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("This is second page"),
+        title: Text("This is Last page"),
       ),
-      body: ElevatedButton(
-          onPressed: () {
-            Navigator.pushNamed(context, "/home");
-          },
-          child: Text("Go HOme")),
+      body: Center(
+        child: ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, "/home");
+            },
+            child: Text("Go HOme")),
+      ),
     );
   }
 }

@@ -14,7 +14,7 @@ class Firstpage extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, '/third');
             },
-            child: Text("Go to Home")),
+            child: Text("Go to Third page")),
       ),
     );
   }
