@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
         routes: {
           "/home": (context) => NavigationGuide(),
           "/second": (context) => Firstpage(),
-          "/third": (context) => Secondpage()
+          "/third": (context) => Secondpage(),
+          "/main": (context) => HomeScreen(),
         });
   }
 }
