@@ -5,6 +5,7 @@ import 'package:flutter_1st_try/Class_5/Class_5/ButtonsGuide/buttons_guide_view.
 import 'package:flutter_1st_try/Class_5/Class_5/ExpandedGuide/expanded_guide_view.dart';
 import 'package:flutter_1st_try/Class_5/Class_5/GridViewCountGuide/gridview_count_guide_view.dart';
 import 'package:flutter_1st_try/PracticeAtHome/HomeTask.dart';
+import 'package:flutter_1st_try/PracticeAtHome/PracticeSetState.dart';
 import 'package:flutter_1st_try/PracticeAtHome/show.dart';
 import 'package:flutter_1st_try/class3/CardGuide/card_guide_view.dart';
 import 'package:flutter_1st_try/class3/ColumnExample/column_example.dart';
@@ -41,8 +42,7 @@ class HomeScreen extends StatelessWidget {
     {'title': 'FirstPage of Navigation', 'page': const NavigationGuide()},
     {'title': 'Dart Basic Screen', 'page': const DartBasic()},
     {'title': 'Mid Term ', 'page': ProductSetState()},
-
-    // {'title': 'SizedBox Example', 'page': SizedBoxExample()},
+    {'title': 'SetState Example', 'page': Practicesetstate()},
     // {'title': 'Center Example', 'page': CenterExample()},
   ];
 

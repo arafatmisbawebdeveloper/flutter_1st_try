@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'ListView Navigation',
-        theme: ThemeData(primarySwatch: Colors.blue),
+        theme: ThemeData(primarySwatch: Colors.green),
         home: HomeScreen(),
         routes: {
           "/home": (context) => NavigationGuide(),

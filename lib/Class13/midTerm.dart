@@ -14,13 +14,6 @@ class _ProductDetails extends State<ProductSetState> {
       backgroundColor: Colors.purple.shade50,
       appBar: AppBar(
         backgroundColor: Colors.purple.shade50,
-        elevation: 0,
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.black),
-          onPressed: () {
-            Navigator.pushNamed(context, "/main");
-          },
-        ),
         actions: [
           IconButton(
             icon: Icon(Icons.favorite_border, color: Colors.black),
