@@ -19,10 +19,12 @@ import 'package:flutter_1st_try/class4/CircleAvatarGuide/circleAvatarGuide.dart'
 import 'package:flutter_1st_try/class4/ListTileGuide/listTileGuide.dart';
 import 'package:flutter_1st_try/class8_to_12/DrawerGuide/drawerguide.dart';
 import 'package:flutter_1st_try/class8_to_12/NavigationGuide/home.dart';
+import 'package:flutter_1st_try/cylindar_Project/logIn.dart';
 
 class HomeScreen extends StatelessWidget {
   // List of pages and their titles
   final List<Map<String, dynamic>> pages = [
+    {'title': 'LoginPage Example', 'page': LoginPage()},
     {'title': 'My Practice', 'page': const Hometask()},
     {'title': 'Scaffold Example', 'page': const ScaffoldExample()},
     {'title': 'Container Example', 'page': const ContainerExample()},
@@ -43,7 +45,6 @@ class HomeScreen extends StatelessWidget {
     {'title': 'Dart Basic Screen', 'page': const DartBasic()},
     {'title': 'Mid Term ', 'page': ProductSetState()},
     {'title': 'SetState Example', 'page': Practicesetstate()},
-    // {'title': 'Center Example', 'page': CenterExample()},
   ];
 
   HomeScreen({super.key});
