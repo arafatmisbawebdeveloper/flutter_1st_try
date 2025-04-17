@@ -13,22 +13,33 @@ class Drawerguide extends StatelessWidget {
         child: ListView(
           children: [
             DrawerHeader(
-                decoration: const BoxDecoration(
-                    color: Color.fromARGB(255, 247, 207, 216)),
-                child: Column(
-                  children: [
-                    ClipRRect(
-                      //borderRadius: BorderRadius.circular(100),
-                      child: Image.asset(
-                        "assets/images/Karna.jpg",
-                        height: 100,
-                        width: 400,
-                        alignment: Alignment.center,
-                      ),
-                    ),
-                    const Text('MisbaUlHoque')
-                  ],
-                )),
+              // decoration: const BoxDecoration(
+              //     color: Color.fromARGB(255, 247, 207, 216)),
+              // child: Column(
+              //   children: [
+              //     ClipRRect(
+              //       //borderRadius: BorderRadius.zero,
+              //       child: Image.asset(
+              //         "assets/images/Karna.jpg",
+              //         height: 100,
+              //         width: 400,
+              //         alignment: Alignment.center,
+              //       ),
+              //     ),
+              //     const Text('MisbaUlHoque')
+              //   ],
+              // ),
+
+              padding: EdgeInsets.zero,
+              child: UserAccountsDrawerHeader(
+                margin: EdgeInsets.zero,
+                accountName: Text("Misba Ul Hoque Arafat"),
+                accountEmail: Text("arfatmisba33@gmail.com"),
+                currentAccountPicture: CircleAvatar(
+                  backgroundImage: AssetImage("assets/images/Karna.jpg"),
+                ),
+              ),
+            ),
             Column(
               children: [
                 const ListTile(

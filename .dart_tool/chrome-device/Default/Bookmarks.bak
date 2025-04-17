@@ -1,0 +1,150 @@
+{
+   "checksum": "7790a8f9640cd1921bb7b9a71bcf238b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13298352079330591",
+            "date_last_used": "0",
+            "guid": "ad18e177-4f57-4356-9467-74bf89742fe2",
+            "id": "6",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService",
+            "visit_count": 0
+         }, {
+            "date_added": "13298352079331526",
+            "date_last_used": "13378804668778425",
+            "guid": "06ecc971-40d0-4135-83be-a1685f759ae5",
+            "id": "7",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://youtube.com/",
+            "visit_count": 1
+         }, {
+            "date_added": "13298352079332254",
+            "date_last_used": "0",
+            "guid": "8186e2e1-c32b-4767-8968-86081aec3759",
+            "id": "8",
+            "name": "Maps",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://maps.google.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13315907110135335",
+            "date_last_used": "0",
+            "guid": "5473f581-dfec-4a6a-91e7-d3d9940415ec",
+            "id": "9",
+            "name": "Using CSS animations - CSS: Cascading Style Sheets | MDN",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations",
+            "visit_count": 0
+         }, {
+            "date_added": "13316022601466682",
+            "date_last_used": "0",
+            "guid": "b665766d-5307-4124-adc5-6473020c91ae",
+            "id": "10",
+            "name": "A Complete Guide to Flexbox | CSS-Tricks - CSS-Tricks",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            "visit_count": 0
+         }, {
+            "date_added": "13317315295068543",
+            "date_last_used": "0",
+            "guid": "4f336128-407b-4b16-9635-b29af87525a7",
+            "id": "11",
+            "name": "WhatsApp",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://web.whatsapp.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13319383304496126",
+            "date_last_used": "0",
+            "guid": "2af54674-c57c-4318-9094-af78cdfbda8d",
+            "id": "12",
+            "name": "Faculty Member | Computer Science & Engineering",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://cu.ac.bd/dept/facultyprofile.php?secno=2&menumapno=130&fbclid=IwAR19gianSas2757X0OdaBhDyS-p-FWFj1HacZ7FgOjkG5wn7cwNyP4cOt6U",
+            "visit_count": 0
+         }, {
+            "date_added": "13323805539892796",
+            "date_last_used": "0",
+            "guid": "07d73d8e-c033-46aa-968b-e8b5b5fe1d0b",
+            "id": "13",
+            "name": "Interactive Problems: Guide for Participants - Codeforces",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://codeforces.com/blog/entry/45307",
+            "visit_count": 0
+         }, {
+            "date_added": "13327309394474984",
+            "date_last_used": "0",
+            "guid": "5f836467-4ac0-4e50-b381-39e3c9c64a09",
+            "id": "14",
+            "name": "Binary Search Tree",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.geeksforgeeks.org/introduction-to-binary-search-tree-data-structure-and-algorithm-tutorials/",
+            "visit_count": 0
+         }, {
+            "date_added": "13328625896397432",
+            "date_last_used": "0",
+            "guid": "f3fae836-b7d3-4b0b-ab27-1d4082e861dc",
+            "id": "15",
+            "name": "Understanding Difference Array: The Underrated Constant Time Range Update Algorithm (Part 1) | by Ishank Katiyar | Medium",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://medium.com/@ishankkatiyar162/understanding-difference-array-the-underrated-constant-time-range-update-algorithm-part-1-e432ada7f1f5",
+            "visit_count": 0
+         } ],
+         "date_added": "13385145915086344",
+         "date_last_used": "0",
+         "date_modified": "13328625896397432",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13385145915086348",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13385145915086349",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCBHAJ0iVAQAAKg4QABgBIAAoBjAAOABAABIAKhhValFhUnNxNzNNeWhJWW9rYlM0cTN3PT1IA6AGDBKtAQgPEqgBChxzQzBBS2w2Y1RPUkg4bWEzZkNnOXpQRFhrajg9EiRmM2ZhZTgzNi1iN2QzLTRiMGItYWIyNy0xZDQwODJlODYxZGMYACAAKAAw1K+PoMUxOKaF5ryHMUCmhea8hzFKHHZFV2Z3SGY5ZWd5c3EyY2MxQnIzKyt4UXQvbz1aHyId/3kyZW1BVG84ZVJ6bis2K2h6a1crUVk5dFQvMD1lgs5AUsI+AmAFEq0BCA0SqAEKHHNaYzg2REVUYVd6VFlSKzdoWkwrUSsyTU0wOD0SJDA3ZDczZDhlLWMwMzMtNDZhYS05NjhiLWU4YjViNWZlMWQwYhgAIAAoADCNg+a8hzE4jIXmvIcxQIyF5ryHMUocZVFKdGhBMzgrbW5JVHVBZ29aa2tWcTkwYUhjPVofIh3+bTBMMlRkOXRQdXEyT3Z1K2IwVmFpWTJINjhNPWUj+2Fowj4CYAUSrQEIDBKoAQocYUNOaVF5amIxQjdNcUplVXBHbUt5bUcrUkhZPRIkMmFmNTQ2NzQtYzU3Yy00MzE4LTkwOTQtYWY3OGNkZmJkYThkGAAgACgAMIyD5ryHMTj0hOa8hzFA9ITmvIcxShxReHFweTZYNnpuZ3RwZWg0YXoxUEpKeDBZNTg9Wh8iHf0wYlRSZ0c2a2xyZ0ZOc0ZsbStOMDdsTjRXU2s9Zfilp2HCPgJgBRKtAQgKEqgBChxUaEJ3cnRXdHFON2YwRlVBdDRRcVBqSVkwdWc9EiRiNjY1NzY2ZC01MzA3LTQxMjQtYWRjNS02NDczMDIwYzkxYWUYACAAKAAw06+PoMUxOJqE5ryHMUCahOa8hzFKHDE2WmNpWFBBS09yUXc1VjhiZVJDLzB3VE1KRT1aHyId9m9WM0JKRk5JRXJTMmVwVExDUW0reUNzWEVBTT1l0lBTZsI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDBhNmQxMzY5LTM3NmMtNTg5Zi1hNGIwLTE4NGNmODY3NjA2ZhgAIAAoADD24PzqsTA4j6CI2JEwQI+giNiRMEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKtAQgJEqgBChxVQ2xyZm9sUnRlT3FXeVRrNlRsSWFyZG1TSE09EiQ1NDczZjU4MS1kZmVjLTRhNmEtOTFlNy1kM2Q5OTQwNDE1ZWMYACAAKAAwi4PmvIcxOLyE5ryHMUC8hOa8hzFKHHZrVE9GLzByd2t3dzBFVDQ5L294VStNWmhBUT1aHyId7G9EdjB1Vi9saW5hanJmUmROWExDTUErUVludz1lbaCf9cI+AmAFEq0BCAcSqAEKHE9GNnlpUnA4Wjkza1JBaS9ZaFJiUklWWXhRYz0SJDA2ZWNjOTcxLTQwZDAtNDEzNS04M2JlLWExNjg1Zjc1OWFlNRgAIAAoADCd97/xvDI4o67XxqcwQKOu18anMEocc2dYMUJvTUNNVHhFNjRHWHZpYWVwdkJTcnNvPVofIh2yVmxESWNhMERadE9DVWF0dmtIdE94b0psU0JzPWX9nIxKwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkZGEyNGFhNTktNjI3OS01OTE5LThjZmMtYjhjNWUxM2U5NWNlGAAgACgAMPbg/OqxMDjmnYjYkTBA5p2I2JEwShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEq0BCA4SqAEKHDA0YnlLR3BZajFmUzRDenFQSEY0cnhubDNDVT0SJDVmODM2NDY3LTRhYzAtNGU1MC1iMzgxLTM5ZTNjOWM2NGEwORgAIAAoADDzov6ksjI40oPmvIcxQNKD5ryHMUocMUI3UUVqUGt5bDN6ZmVsc1NQTVBRNXZ0dG5RPVofIh3/eGt4enp6N1BkbnYxSGFIOUI4ZHZzQTZqSWpnPWVRpCm3wj4CYAUSjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZjNhMzAzZTctYjgzZC01YTk2LTk5M2ItYWYxZjk3ZWRkY2EyGAAgACgAMPbg/OqxMDjTnojYkTBA056I2JEwShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEqwBCAYSpwEKHDJEYzExQ0xRQ0JTT045S2JBYjliWGI4ZXo1OD0SJGFkMThlMTc3LTRmNTctNDM1Ni05NDY3LTc0YmY4OTc0MmZlMhgAIAAoADC6pcvupDI4xa3XxqcwQMWt18anMEocc2x3b3VzUG1sNW1oQU93MStVZU1uU2lVN0ZRPVoeIhxlTUE1VFdBd2pVT1ZIdVVlV21ncEJVUEdvN2s9ZZs9hbbCPgJgBRKtAQgLEqgBChxQTC9mc3BZS3VwWVQ5RDB2ejZ1bkY5UnQ2cUE9EiQ0ZjMzNjEyOC00MDdiLTRiMTYtOTYzNS1iMjlhZjg3NTI1YTcYACAAKAAwiYPmvIcxOPuD5ryHMUD7g+a8hzFKHG9HbXRSRUFnR1hxMmtxWlVKdDVXWGtBbVVJcz1aHyId+1cvbG5CWXhEODE0c3JINjdpUm43VUZZM0cvZz1l/dYgcsI+AmAFEq0BCAgSqAEKHGVYTkFUbWU4UDhMUHNzV0VxQ3R5anNjbEFkWT0SJDgxODZlMmUxLWMzMmItNDc2Ny04OTY4LTg2MDgxYWVjMzc1ORgAIAAoADD5rNfGpzA4g67XxqcwQIOu18anMEocd2R2RmgrZ0Y1TlF1eFJoL09yWFZTQkorU25zPVofIh3Zcis1eHR5OWVOSGNPVHFEcEo0dXRIdzBHNzEwPWWk++iYwj4CYAUwADgA",
+   "version": 1
+}
