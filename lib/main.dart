@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_1st_try/Home/home_view.dart';
+import 'package:flutter_1st_try/class8_to_12/DrawerGuide/drawerguide.dart';
 import 'package:flutter_1st_try/class8_to_12/NavigationGuide/firstPage.dart';
 import 'package:flutter_1st_try/class8_to_12/NavigationGuide/home.dart';
 import 'package:flutter_1st_try/class8_to_12/NavigationGuide/secondPage.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
           "/second": (context) => Firstpage(),
           "/third": (context) => Secondpage(),
           "/main": (context) => HomeScreen(),
+          "/dwr": (context) => Drawerguide(),
         });
   }
 }
